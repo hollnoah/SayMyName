@@ -26,9 +26,6 @@ Module SayMyName
             Case "rossiter"
                 Console.WriteLine("Care for some jelly beans?")
 
-            Case "alex"
-                Console.WriteLine("Evening...BUDDY!")
-
             Case Else 'if the user doesn't type any of the above names, it will greet them with whatever name they type
                 Console.WriteLine("Hello, " & Name & "!" & " Nice of you to drop by.")
         End Select
